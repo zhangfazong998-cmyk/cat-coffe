@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Coffe · 猫咪咖啡馆</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; color: #3b2f2f; background: #fff8f0; line-height: 1.7; }
+  header { background: #6f4e37; color: #fff; padding: 56px 20px; text-align: center; }
+  header h1 { margin: 0; font-size: 44px; letter-spacing: 2px; }
+  header p { margin: 12px 0 0; opacity: .9; font-size: 18px; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+  section { background: #fff; border-radius: 16px; padding: 28px; margin-bottom: 24px; box-shadow: 0 6px 24px rgba(111,78,55,.08); }
+  h2 { margin-top: 0; color: #6f4e37; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { border: 1px solid #f0e2d3; border-radius: 12px; padding: 18px; background: #fffdf9; }
+  .card h3 { margin: 0 0 6px; }
+  .price { color: #b7794c; font-weight: bold; }
+  .tag { display: inline-block; background: #ffe8d6; color: #8a5a2b; padding: 2px 10px; border-radius: 999px; font-size: 13px; }
+  footer { text-align: center; color: #8a7a6f; padding: 24px; font-size: 14px; }
+  @media (max-width: 520px) { header h1 { font-size: 34px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>🐱 Cat Coffe</h1>
+  <p>一杯咖啡，一只猫，一个慢下来的下午</p>
+</header>
+<main>
+  <section>
+    <h2>关于我们</h2>
+    <p>Cat Coffe 是一家猫咪主题咖啡馆。在这里，你可以一边喝咖啡，一边和店里的猫咪们相处。我们希望每一个走进来的人，都能被毛茸茸的治愈感包围。</p>
+    <p><span class="tag">营业时间：待补充</span>　<span class="tag">地址：待补充</span></p>
+  </section>
+
+  <section>
+    <h2>招牌菜单</h2>
+    <div class="grid">
+      <div class="card"><h3>拿铁</h3><p>顺滑牛奶与浓缩咖啡的经典搭配。</p><p class="price">¥ 32</p></div>
+      <div class="card"><h3>卡布奇诺</h3><p>绵密奶泡，适合慢慢品。</p><p class="price">¥ 32</p></div>
+      <div class="card"><h3>猫爪蛋糕</h3><p>店里最受欢迎的甜点，造型可爱。</p><p class="price">¥ 38</p></div>
+      <div class="card"><h3>手冲咖啡</h3><p>每天更换的单品豆，现磨现冲。</p><p class="price">¥ 36</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>店里的猫咪</h2>
+    <div class="grid">
+      <div class="card"><h3>🐈 咪咪</h3><p>性格温顺，最喜欢晒太阳。</p></div>
+      <div class="card"><h3>🐈 团团</h3><p>好奇心强，是店里的气氛担当。</p></div>
+      <div class="card"><h3>🐈 小灰</h3><p>有点高冷，但熟了会主动蹭你。</p></div>
+    </div>
+    <p style="color:#8a7a6f; font-size:14px;">提示：请轻声细语，不要强行抱猫、不要喂食人类食物。</p>
+  </section>
+
+  <section>
+    <h2>来店须知</h2>
+    <ul>
+      <li>进店请先洗手，爱护猫咪和店内物品。</li>
+      <li>拍照可以开闪光灯以外的模式，避免惊吓猫咪。</li>
+      <li>具体地址、营业时间和预约方式，请替换为你的真实信息。</li>
+    </ul>
+  </section>
+</main>
+<footer>© Cat Coffe · 本页面为静态网页示例，内容可随时替换</footer>
+</body>
+</html>
