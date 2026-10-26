@@ -4,113 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cat Coffe · Cat Café in Bohol</title>
-<style>
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: #2b2b2b; background: #fff; line-height: 1.7; }
-  a { color: inherit; text-decoration: none; }
-  nav { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; padding: 16px 28px; z-index: 10; }
-  nav strong { font-size: 20px; letter-spacing: 1px; }
-  nav ul { list-style: none; display: flex; gap: 22px; margin: 0; padding: 0; font-size: 15px; flex-wrap: wrap; justify-content: flex-end; }
-  nav a:hover { color: #6f4e37; }
-  .hero { background: #6f4e37; color: #fff; padding: 90px 24px; text-align: center; }
-  .hero h1 { margin: 0; font-size: 52px; line-height: 1.15; }
-  .hero p { margin: 18px 0 0; font-size: 19px; opacity: .92; }
-  .hero a { display: inline-block; margin-top: 28px; background: #fff; color: #6f4e37; padding: 12px 26px; border-radius: 999px; font-weight: bold; }
-  main { max-width: 980px; margin: 0 auto; padding: 48px 22px 72px; }
-  section { padding: 36px 0; border-bottom: 1px solid #f0e8df; }
-  section:last-child { border-bottom: none; }
-  h2 { margin: 0 0 8px; font-size: 30px; color: #6f4e37; }
-  .eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 13px; color: #a98a6d; font-weight: bold; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; margin-top: 20px; }
-  .card { border: 1px solid #eee0d1; border-radius: 14px; padding: 20px; background: #fffdf9; }
-  .card h3 { margin: 0 0 6px; }
-  .price { color: #b7794c; font-weight: bold; }
-  .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 20px; }
-  .tile { background: #fff3e6; border-radius: 14px; padding: 42px 18px; text-align: center; font-size: 34px; }
-  .tile span { display: block; font-size: 15px; margin-top: 10px; color: #6f4e37; }
-  .info { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 20px; }
-  .info div { background: #faf6f1; border-radius: 12px; padding: 20px; }
-  footer { text-align: center; color: #8a7a6f; padding: 28px 20px 40px; font-size: 14px; line-height: 1.8; }
-  @media (max-width: 640px) { .hero h1 { font-size: 36px; } nav { flex-direction: column; gap: 10px; } }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav>
-  <strong>CAT COFFE</strong>
+  <strong><a href="index.html">CAT COFFE</a></strong>
   <ul>
-    <li><a href="#story">Our Story</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#cats">Cats</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#location">Location</a></li>
-    <li><a href="#visit">Visit Us</a></li>
+    <li><a href="story.html">Our Story</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="cats.html">Cats</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="location.html">Location</a></li>
+    <li><a href="visit.html">Visit Us</a></li>
   </ul>
 </nav>
-
 <header class="hero">
   <h1>Good coffee,<br>good cats, good mood.</h1>
   <p>A slow afternoon with a warm cup and a furry friend in Bohol.</p>
-  <a href="#menu">See the Menu →</a>
+  <a href="menu.html">See the Menu →</a>
 </header>
-
 <main>
-  <section id="story">
-    <p class="eyebrow">Our Story</p>
-    <h2>A café built around cats</h2>
-    <p>Cat Coffe is a cat-themed café where coffee and cats share the same room. Come for a drink, stay for a nap in the sun — theirs, and maybe yours too. We keep the space calm, cozy, and kind to both people and cats.</p>
-  </section>
-
-  <section id="menu">
-    <p class="eyebrow">Menu</p>
-    <h2>Drink &amp; Food</h2>
+  <section>
+    <p class="eyebrow">Welcome</p>
+    <h2>A cat café in Dauis, Bohol</h2>
+    <p>Cat Coffe is a cat-themed café where coffee and cats share the same room. Explore our story, menu, resident cats, and gallery — then come and visit us in person.</p>
     <div class="grid">
-      <div class="card"><h3>Latte</h3><p>A classic combination of smooth milk and espresso.</p><p class="price">₱ 32</p></div>
-      <div class="card"><h3>Cappuccino</h3><p>Rich, velvety foam — perfect for slow sipping.</p><p class="price">₱ 32</p></div>
-      <div class="card"><h3>Pour-Over Coffee</h3><p>Freshly ground single-origin beans, brewed to order each day.</p><p class="price">₱ 36</p></div>
-      <div class="card"><h3>Cat Paw Cake</h3><p>Our most popular dessert, as cute as it is delicious.</p><p class="price">₱ 38</p></div>
+      <div class="card"><h3>Our Story</h3><p>Why we built a café around cats.</p><a class="btn" href="story.html">Read Our Story</a></div>
+      <div class="card"><h3>Menu</h3><p>Drinks and desserts, priced in Philippine pesos.</p><a class="btn" href="menu.html">See the Menu</a></div>
+      <div class="card"><h3>Visit Us</h3><p>📍 Riverside Songculan Bridge, Songculan, Dauis, 6339 Bohol</p><a class="btn" href="location.html">Find Us</a></div>
     </div>
-  </section>
-
-  <section id="cats">
-    <p class="eyebrow">Meet the Cats</p>
-    <h2>Our resident cats</h2>
-    <div class="grid">
-      <div class="card"><h3>🐈 Mimi</h3><p>Gentle and calm, she loves sunbathing the most.</p></div>
-      <div class="card"><h3>🐈 Tuan Tuan</h3><p>Curious and lively, the café's resident mood-maker.</p></div>
-      <div class="card"><h3>🐈 Grey</h3><p>A little aloof at first, but once warmed up, he will come and nuzzle you.</p></div>
-    </div>
-    <p style="color:#8a7a6f; font-size:14px;">Tip: please keep your voice down, do not pick cats up by force, and do not feed them human food.</p>
-  </section>
-
-  <section id="gallery">
-    <p class="eyebrow">Gallery</p>
-    <h2>Small moments in the café</h2>
-    <div class="gallery">
-      <div class="tile">☕<span>Morning coffee</span></div>
-      <div class="tile">🐈<span>Cat nap time</span></div>
-      <div class="tile">🍰<span>Fresh from the kitchen</span></div>
-      <div class="tile">🌿<span>A quiet corner</span></div>
-    </div>
-    <p style="color:#8a7a6f; font-size:14px;">Photos can be added here later — replace these placeholders with your own café photos.</p>
-  </section>
-
-  <section id="location">
-    <p class="eyebrow">Location</p>
-    <h2>Find us</h2>
-    <div class="info">
-      <div><strong>Address</strong><br>📍 Riverside Songculan Bridge, Songculan, Dauis, 6339 Bohol</div>
-      <div><strong>Business Hours</strong><br>To be added</div>
-      <div><strong>Good to Know</strong><br>Please wash your hands on arrival, and be kind to the cats and the café. Photos are welcome without flash.</div>
-    </div>
-  </section>
-
-  <section id="visit">
-    <p class="eyebrow">Visit Us</p>
-    <h2>Walk in and stay a while</h2>
-    <p>Walk-ins are welcome. Exact opening hours and booking details can be added here once you confirm them.</p>
   </section>
 </main>
-
 <footer>
   📍 Riverside Songculan Bridge, Songculan, Dauis, 6339 Bohol<br>
   © Cat Coffe · This is a static website example, and its content can be updated anytime
